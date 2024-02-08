@@ -60,7 +60,7 @@ document.getElementById('deliveryForm').addEventListener('submit', function(even
     let customerLocation = document.getElementById('location').value;
 
     // Always calculate and display the route
-    calculateAndDisplayRoute('308-320 Settlement Rd, Thomastown VIC 3074', customerLocation);
+    calculateAndDisplayRoute('121 Bell St, Preston VIC 3072', customerLocation);
 
     let fixedPriceSuburb = Object.keys(fixedPriceSuburbs).find(suburb => customerLocation.includes(suburb));
     if (fixedPriceSuburb) {
